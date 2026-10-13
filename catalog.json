@@ -1,0 +1,24 @@
+{
+  "source": "fictional_demo",
+  "notice": "個体・名前・関係性・映像はすべて架空の展示デモです。AI推論ではありません。",
+  "camera": { "camera_id": "demo_pool", "video_id": "demo_pool_01", "width": 1000, "height": 600, "duration": 60, "fps": 10 },
+  "individuals": [
+    { "individual_id": "demo_shio", "name": "しお", "species": "アザラシ（架空）", "profile": "水面をゆったり泳ぐ、しお。水槽の奥から、そっとこちらをのぞく姿を探してみてください。", "images": [], "characteristics": ["淡いグレーの体", "背中の丸い模様"], "color": "#367e80", "is_demo": true },
+    { "individual_id": "demo_nagi", "name": "なぎ", "species": "アザラシ（架空）", "profile": "小さなヒレを動かして、水の中をすいすい。しおの近くに登場することもある、なぎです。", "images": [], "characteristics": ["小さめの体", "明るいおなか"], "color": "#d28b4f", "is_demo": true },
+    { "individual_id": "demo_kohaku", "name": "こはく", "species": "アザラシ（架空）", "profile": "水槽を大きく一周する、こはく。ほかの個体との位置や、泳ぐ向きの違いを観察してみましょう。", "images": [], "characteristics": ["こげ茶の模様", "丸い顔"], "color": "#8f789d", "is_demo": true },
+    { "individual_id": "demo_tsumugi", "name": "つむぎ", "species": "アザラシ（架空）", "profile": "水槽の手前をゆっくり泳ぐ、つむぎ。画面の外へ出て、また戻ってくることがあります。", "images": [], "characteristics": ["青みのあるグレー", "長いヒゲ"], "color": "#64897a", "is_demo": true }
+  ],
+  "relationships": [
+    { "relationship_id": "demo_parent", "individual_a": "demo_shio", "individual_b": "demo_nagi", "relationship_type": "parent_child", "description": "しおはなぎの親、という架空の設定です。映像の接近から判定した関係ではありません。", "source": "架空のデモ設定", "verification_status": "fictional_demo", "label": "親子", "color": "#d28b4f" },
+    { "relationship_id": "demo_siblings", "individual_a": "demo_kohaku", "individual_b": "demo_tsumugi", "relationship_type": "siblings", "description": "こはくとつむぎはきょうだい、という架空の設定です。実在する個体の情報ではありません。", "source": "架空のデモ設定", "verification_status": "fictional_demo", "label": "きょうだい", "color": "#8f789d" },
+    { "relationship_id": "demo_known", "individual_a": "demo_shio", "individual_b": "demo_kohaku", "relationship_type": "known", "description": "同じ水槽で暮らす、という架空の台帳設定です。親密さや相性を示すものではありません。", "source": "架空のデモ設定", "verification_status": "fictional_demo", "label": "同じ水槽", "color": "#367e80" }
+  ],
+  "trajectories": [
+    { "track_id": "1", "individual_id": "demo_shio", "start": 0, "end": 60, "cx": 265, "cy": 255, "rx": 115, "ry": 75, "phase": 0, "body_width": 158, "body_height": 90 },
+    { "track_id": "2", "individual_id": "demo_nagi", "start": 0, "end": 43, "cx": 520, "cy": 285, "rx": 105, "ry": 80, "phase": 1.2, "body_width": 135, "body_height": 78 },
+    { "track_id": "3", "individual_id": "demo_kohaku", "start": 8, "end": 60, "cx": 710, "cy": 225, "rx": 110, "ry": 80, "phase": 3.2, "body_width": 165, "body_height": 94 },
+    { "track_id": "4", "individual_id": "demo_tsumugi", "start": 0, "end": 27, "cx": 520, "cy": 445, "rx": 160, "ry": 30, "phase": 4.5, "body_width": 148, "body_height": 86 },
+    { "track_id": "4b", "individual_id": "demo_tsumugi", "start": 39, "end": 60, "cx": 590, "cy": 420, "rx": 110, "ry": 40, "phase": 4.5, "body_width": 148, "body_height": 86 },
+    { "track_id": "unknown_5", "individual_id": null, "start": 18, "end": 35, "cx": 190, "cy": 430, "rx": 65, "ry": 35, "phase": 2, "body_width": 130, "body_height": 76 }
+  ]
+}
